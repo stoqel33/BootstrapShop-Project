@@ -1,0 +1,16 @@
+.jumbotron{
+  position: relative;
+  color: white;
+
+  .jumbotron-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/assets/image1.jpg');
+    background-size: cover;
+    background-position-y: center;
+    z-index: -1;
+  }
+}
